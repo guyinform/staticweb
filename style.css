@@ -1,0 +1,317 @@
+body{
+margin: 0px;
+background-color:#a374d5;
+}
+
+header{
+
+}
+header .main {
+	width: 699px;
+	margin: auto;
+	padding: 20px;
+}
+
+header h1 {
+	padding: 10px;
+	text-align:center;
+	font-family:'Aguafina Script', cursive;
+	word-spacing: 16px;
+	line-height: 18px;
+	letter-spacing: 2px;
+}
+.webdeveloper {
+	font-family: 'Aguafina Script', cursive;
+	text-decoration: underline;
+}
+header h3 {
+	font-family: cursive;
+	text-align: center;
+	color:#032d3c;
+	letter-spacing:2px;
+}
+
+header p {
+	display: inline;
+	text-align: left;
+	font-family: Montserrat;
+	color: #fcf9ec;
+	word-spacing: 3px;
+	line-height: 18px;
+}
+.intro {
+	width: 550px;
+    margin-left: 210px;
+}
+
+header img {
+	border-radius: 30px;
+	float: left;
+	filter:brightness(80%);
+}
+
+
+
+hr {
+	
+	border-style:dotted none none none;
+	width: 190px;
+	color: #f9ff21;
+	clear: both;
+	
+}
+
+/*----------navigation---------*/
+.arrow {
+	font-family: cursive;
+
+}
+.nav-item ul {
+	text-align: center;
+
+}
+.nav-item ul li {
+	border:1px solid #fdef96;
+	list-style: none;
+	display: inline-block;
+	padding: 11px;
+	background-color:#17223b;
+	border-radius: 10px;
+	
+}
+.nav-item ul li:hover {
+	padding: 13px;
+	cursor: pointer;
+	background-color: #fdef96;
+}
+
+.nav-item ul li a {
+	font-family: cursive;
+	text-decoration: none;
+	color:#12d3cf;
+}
+.social ul {
+	text-align: center;
+}
+
+.social ul li {
+	list-style: none;
+	display: inline-block;
+	border: 1px solid  #fdef96;
+	width: 50px;
+	font-size: 30px;
+	border-radius: 100%;
+	text-align: center;
+	margin:auto;
+}
+
+.social ul li:hover {
+	font-size: 32px;
+	background-color: #fdef96;
+}
+.social ul li a {
+	text-decoration: none;
+}
+
+/*---------------Education Section--------------*/
+#Education {
+
+}
+#Education h1 {
+ 	text-align: center;
+    font-family: 'Aguafina Script', cursive;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.education-list {
+	width:800px;
+	margin:auto;
+	text-align: left;
+
+
+}
+.education-list h2 {
+	text-align: center;
+	font-family: cursive;
+	text-decoration: underline;
+	color:#121b74;
+
+}
+
+.school{
+	width: 355px;
+	float:left;
+
+}
+.school p ,.school ol{
+	font-family: Montserrat;
+	color: #fcf9ec;
+	word-spacing: 3px;
+	line-height: 18px;
+}
+.university {
+	width: 355px;
+	display: inline-block;
+	float: right;
+}
+.university p,.university ol {
+	font-family: Montserrat;
+	color: #fcf9ec;
+	word-spacing: 3px;
+	line-height: 18px;
+}
+
+
+/*===============Hobby=======================*/
+
+#Hobby {
+	clear: both;
+	width: 900px;
+	margin:auto;
+}
+
+#Hobby h1 {
+	text-align: center;
+    font-family: 'Aguafina Script', cursive;
+    text-decoration: underline;
+    font-size: 40px;
+}
+#Hobby img {
+	width: 200px;
+}
+#Hobby p{
+	text-align: center;
+	font-family: Montserrat;
+	color: #fcf9ec;
+	word-spacing: 3px;
+	line-height: 18px;
+}
+
+.drum-hobby {
+	width: 250px;
+	float: left;
+
+}
+
+.read-hobby {
+	width: 250px;
+	display: inline-block;
+	margin-left: 85px;
+}
+
+.karate-hobby {
+	width: 250px;
+	float: right;
+}
+
+/*==============Skill================*/
+#Skill {
+	width: 800px;
+	margin:auto;
+}
+#Skill h1 {
+	text-align: center;
+    font-family: 'Aguafina Script', cursive;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#Skill p{
+	font-family: Montserrat;
+	color: #fcf9ec;
+	word-spacing: 3px;
+	line-height: 18px;
+}
+
+#Skill .container{
+	width: 100%;
+	background-color: #ddd;
+	border-radius:20px;
+	border-bottom-left-radius: 10px;
+}
+#Skill .skill {
+	text-align: left;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: white;
+}
+.html {width: 60%; background-color: #4CAF50;}
+.css {width: 50%; background-color: #2196F3;} 
+.bootstrap{width: 30%; background-color: #808080;}
+
+/*=====================Contact Me==============*/
+#Contact {
+	width: 1000px;
+	margin:auto;
+	font-family: Montserrat;
+	word-spacing: 3px;
+	line-height: 18px;
+}
+#Contact h1 {
+	text-align: center;
+    font-family: 'Aguafina Script', cursive;
+    text-decoration: underline;
+    font-size: 40px;
+}
+#Contact img {
+	position: relative;
+	left: 105px;
+}
+
+.address {
+	width: 450px;
+	float: left;
+	color: #fcf9ec;
+}
+.address ul li {
+	list-style:square;
+}
+
+form {
+	margin:auto;
+}
+.message {
+	width: 450px;
+	float: right;
+	color: #fcf9ec;
+
+}
+.message h2 {
+	text-align: center;
+}
+
+.message input[type = "text"] ,.message input[type="email"],textarea {
+	display: block;
+	padding: 10px;	
+	text-align: center;
+	border-radius: 15px;	
+	font-size: 20px;
+	margin-bottom: 5px;
+	width: 400px;
+	color: #000;
+	background-color:#bdffcba1;
+	border: 2px solid #3f51b5;
+}
+.message input[type = "submit"]{
+	display: block;
+	width: 150px;
+	border:2px solid #3f51b5;
+	border-radius: 15px;
+	font-family: cursive;
+	color: #000;
+	margin:auto;
+	padding: 8px;
+
+}
+
+
+
+
+
+
+/*=============Footer=========*/
+#Footer {
+	clear: both;
+
+}
